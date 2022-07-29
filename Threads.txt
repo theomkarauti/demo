@@ -1,0 +1,14 @@
+6.Threads :-
+	Multithreading in Java is a process of executing multiple
+	threads simultaneously.
+
+	A thread is a lightweight sub-process, the smallest unit of processing. 
+	Multiprocessing and multithreading, both are used to achieve multitasking.
+
+                Threads provide a way to improve application performance through parallelism.
+
+	A thread can be created by implementing the Runnable interface and 
+	overriding the run() method. Then a Thread object can be created and 
+	the start() method called. The Main thread in Java is the one that
+	begins executing when the program starts.
+

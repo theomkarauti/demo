@@ -1,0 +1,17 @@
+Exception Handlind is a -
+		 mechanism to handle the 
+		runtime errors so that the 
+		flow of the application can be maintained.
+
+	try
+	{  
+   		   //code that may raise exception  
+     		 int data=100/0;  
+   	}
+	catch(ArithmeticException e)
+	{
+		System.out.println(e);
+	}  
+   		//rest code of the program   
+		  System.out.println("rest of the code...");  
+  	}  

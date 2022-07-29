@@ -1,0 +1,35 @@
+Data Base:-
+
+1.Register the Driver class
+2.Create connection
+3.Create statement
+4.Execute queries
+5.Close connection
+
+
+1. Register the Driver class:-
+.The forName() method of Class class is used to register 
+the driver class. This method is used to dynamically load 
+the driver class.
+
+.Here, Java program is loading oracle driver to esteblish 
+database connection.
+
+eg.Class.forName("oracle.jdbc.driver.OracleDriver");  
+
+
+2.Create connection:-
+
+The getConnection() method of DriverManager class is used 
+to establish connection with the database.
+
+e.g:- Connection con=DriverManager.getConnection(  
+"jdbc:oracle:thin:@localhost:1521:xe","system","password");  
+
+3.Create statement:-
+
+The createStatement() method of Connection interface
+is used to create statement. The object of statement is 
+responsible to execute queries with the database.
+
+4.Execute queries:-

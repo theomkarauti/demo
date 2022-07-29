@@ -1,0 +1,42 @@
+1.Static :-
+
+.methods in Java that can be called without 
+creating an object of class
+.When a member of the class is declared as static,
+ it can be accessed before the objects of its class are created, 
+and without any object reference.
+
+2.this     :-
+.this keyword points to a reference of the current class,
+.this can be used to access variables and methods of the current class.
+
+3.super :-
+.super keyword points to a reference of the parent class. 
+. used to access variables and methods of the parent class from 
+the child class
+
+4.throw :-  The keyword “throw” is used to throw the 
+	exception explicitly.
+
+e.g :-
+	// if(age<18)  
+ 
+      throw new ArithmeticException("Not eligible to vote and drive!!");  
+    
+ 	else   //print the message
+      System.out.println("Eligible to vote and drive!!"); 
+
+5. throws :- The keyword “Throws” Does not throw an exception 
+	but is used to declare exceptions. 
+	This keyword is used to indicate that an
+	 exception might 
+	occur in the program or method.
+
+	//declare exception using throws in the method signature
+  void testMethod(int num) throws IOException, ArithmeticException{ 
+     if(num==1)
+        throw new IOException("IOException Occurred");
+     else
+        throw new ArithmeticException("ArithmeticException");
+  } 
+

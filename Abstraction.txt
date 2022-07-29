@@ -1,0 +1,29 @@
+/*	Abstraction is a process of hiding the implementation 
+               details and showing only functionality to the user.  */
+
+	- A class which is declared as Abstract 
+	is known as an abstract class.
+
+
+	- A method which is declared as Abstract and does not
+	 have Implementation is known as an abstract method.
+
+
+	abstract class Bike
+		{ 
+		abstract void run();  
+		//no method body and abstract  
+		}  
+
+	class Honda4 extends Bike
+	{  
+	void run()
+	{
+		System.out.println("running safely");
+	}  
+		public static void main(String args[])
+		{  
+			 Bike obj = new Honda4();  
+ 			obj.run();  
+		}  
+	}  

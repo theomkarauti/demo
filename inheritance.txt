@@ -1,0 +1,11 @@
+Inheritance in Java is a mechanism Child Class object 
+acquires all the properties and behaviors of a parent object.
+
+
+1. Single Level
+2.Multilevel.
+3.Hierarchical.
+
+NOT - 
+multiple...
+Hybrid....
